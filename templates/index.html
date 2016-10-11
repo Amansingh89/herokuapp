@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heroku Project</title>
+</head>
+<body>
+<h1> Github connects Heroku</h1>
+<p>Github was already so cool, but now we have Heroku. Another cool platform!!! yeahhh </p>
+
+<ol>
+    {% for vehicle in vehicles %}
+        <li>{{ vehicle.company }}</li>
+        <p>{{ vehicle.model }}</p>
+        <p>{{ vehicle.year }}</p>
+
+
+    {% endfor %}
+</ol>
+</body>
+</html>
